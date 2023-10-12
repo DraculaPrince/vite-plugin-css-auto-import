@@ -13,8 +13,6 @@ import {
 	isJSXIdentifier,
 } from '@babel/types';
 
-console.log(traverse)
-
 // https://github.com/babel/babel/issues/13855
 // @ts-ignore
 let newTraverse: typeof traverse = null;
@@ -58,7 +56,6 @@ export async function transformJSX({
 			let styleNameNode: any = null;
 			// 这里判断是否是styleNameNode节点还是classNameNode节点
 			path.node.attributes.forEach((attr: any) => {
-				console.log(attr);
 				if (isJSXAttribute(attr) && isJSXIdentifier(attr.name)) {
 					if (attr.name.name === 'className') {
 						classNameNode = attr;
