@@ -1,4 +1,4 @@
-# ⚡ vite-plugin-css-auto-import [![NPM version](https://img.shields.io/npm/v/vite-plugin-css-auto-import?style=flat-square)](https://www.npmjs.com/package/vite-plugin-css-auto-import)
+# ⚡ vite-plugin-stylename-auto-classname [![NPM version](https://img.shields.io/npm/v/vite-plugin-css-auto-import?style=flat-square)](https://www.npmjs.com/package/vite-plugin-css-auto-import)
 
 The plugin is designed specifically for folks who are tired of this:
 
